@@ -83,12 +83,20 @@ header{
     overflow: hidden;
 }
 
+.home-btn{
+    position: fixed;
+    top: 3%;
+    right: 5%;
+    z-index: 5;
+    color: #423300;
+}
+
 .movieTitle{
     text-align: center;
     font-variant: small-caps ;
     font-size: 30pt;
     letter-spacing: 0.1em;
-    color: #ffea2d;
+    color: #ffd344;
 }
 
 .movieContainer{
@@ -109,6 +117,9 @@ header{
     margin-bottom: 10%;
 }
 
+.description{
+    width:900px;
+}
 
 footer{
     bottom: 0;

@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import StarRatingComponent from 'react-star-rating-component';
+import {Button} from 'react-bootstrap'
 
 
 const Movie = ({defaultProps, movies}) => {
@@ -12,6 +13,7 @@ const Movie = ({defaultProps, movies}) => {
 
     return (
         <div className='movieContainer' style={{marginTop :'7%'}}>
+            <a style={{textDecoration:'none', color:'inherit'}} href='http://localhost:3000/'><Button className="btn btn-warning home-btn">Home</Button></a>
             <h1 className='movieTitle'>{movie.title}</h1>
             <StarRatingComponent 
                             value={movie.rating}
