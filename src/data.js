@@ -1,11 +1,12 @@
 import {v4 as uuidv4} from 'uuid'
+import img1 from './images/img1.jpg'
 
 export const List = [
     {
         id: uuidv4(),
-        title: "The Shawshank Redemption",
+        title: "The age of Adaline",
         description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        posterURL: "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        posterURL: img1,
         rating: 5,
         trailer:"https://www.youtube.com/embed/6hB3S9bIaco"
     },
